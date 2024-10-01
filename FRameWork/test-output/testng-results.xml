@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T17:38:34 IST" name="Default suite" finished-at="2024-10-01T17:38:34 IST" duration-ms="44">
+  <suite started-at="2024-10-01T18:24:00 IST" name="Default suite" finished-at="2024-10-01T18:24:00 IST" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2024-10-01T17:38:34 IST" name="Default test" finished-at="2024-10-01T17:38:34 IST" duration-ms="44">
+    <test started-at="2024-10-01T18:24:00 IST" name="Default test" finished-at="2024-10-01T18:24:00 IST" duration-ms="51">
       <class name="TestScript.Test_01">
-        <test-method is-config="true" signature="connectionDatabase()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="connectionDatabase" finished-at="2024-10-01T17:38:34 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="connectionDatabase()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="connectionDatabase" finished-at="2024-10-01T18:24:00 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectionDatabase -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="launchBrowser" finished-at="2024-10-01T17:38:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="launchBrowser" finished-at="2024-10-01T18:24:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="login" finished-at="2024-10-01T17:38:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="login" finished-at="2024-10-01T18:24:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createTest()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="createTest" finished-at="2024-10-01T17:38:34 IST" duration-ms="5" status="PASS">
+        <test-method signature="addNewFeature()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="addNewFeature" finished-at="2024-10-01T18:24:00 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="logout" finished-at="2024-10-01T17:38:34 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- addNewFeature -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="logout" finished-at="2024-10-01T18:24:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="closeBrowser" finished-at="2024-10-01T17:38:34 IST" duration-ms="0" status="PASS">
+        <test-method signature="createTest()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="createTest" finished-at="2024-10-01T18:24:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="login" finished-at="2024-10-01T18:24:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="logout" finished-at="2024-10-01T18:24:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="closeBrowser" finished-at="2024-10-01T18:24:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:TestScript.Test_01@957e06]" started-at="2024-10-01T17:38:34 IST" name="closeDB" finished-at="2024-10-01T17:38:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:TestScript.Test_01@661972b0]" started-at="2024-10-01T18:24:00 IST" name="closeDB" finished-at="2024-10-01T18:24:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->
